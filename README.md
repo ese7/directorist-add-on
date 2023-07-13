@@ -1,3 +1,5 @@
+
+
 **##Plugin fields:**
 
 **General section**
@@ -38,6 +40,3 @@
 **Sidebar**
   - Expiration Date and Time - “_expiry_date” (text)
   - Never Expires - “_never_expire” (checkbox - yes/no)
-  - Locations? - enable private taxonomies under “Taxonomies, Categories, Tags”
-  - Categories? - enable private taxonomies under “Taxonomies, Categories, Tags”
-  - Tags? - enable private taxonomies under “Taxonomies, Categories, Tags”
