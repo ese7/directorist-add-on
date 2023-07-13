@@ -185,13 +185,13 @@ final class Directorist_Add_On {
     	} 
     	
     	// preview image
-    	if ( $this->add_on->can_update_meta( '_listing_prv_img', $import_options ) ) {
+    	if ( empty( $article['ID'] ) || $this->add_on->can_update_meta( '_listing_prv_img', $import_options ) ) {
     		$attachment_id = $data['_listing_prv_img']['attachment_id'];
     		update_post_meta( $post_id, '_listing_prv_img', $attachment_id );
     	}
     	
     	// social
-		if ( $this->add_on->can_update_meta( '_social', $import_options ) ) {
+		if ( empty( $article['ID'] ) || $this->add_on->can_update_meta( '_social', $import_options ) ) {
     		$social_ids = explode(',',$data['_social_platform_id']);
     		$social_urls = explode(',',$data['_social_url']);
     		$final = array();
