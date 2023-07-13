@@ -1,5 +1,3 @@
-#Directorist Add-On
-
 **##Plugin fields:**
 
 **General section**
