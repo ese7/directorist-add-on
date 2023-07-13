@@ -192,8 +192,13 @@ final class Directorist_Add_On {
     	
     	// social
 		if ( empty( $article['ID'] ) || $this->add_on->can_update_meta( '_social', $import_options ) ) {
-    		$social_ids = explode(',',$data['_social_platform_id']);
-    		$social_urls = explode(',',$data['_social_url']);
+    		$social_ids = sanitize_text_field(strtolower($data['_social_platform_id']));
+    		$social_ids = str_replace(' ','',$social_ids);
+    		$social_ids = explode(',',$social_ids);
+    		$social_urls = sanitize_text_field(strtolower($data['_social_url']));
+    		$social_urls = str_replace(' ','',$social_urls);
+    		$social_urls = explode(',',$social_urls);
+
     		$final = array();
     		
     		foreach ($social_urls as $key => $value){
