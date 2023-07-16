@@ -2,6 +2,23 @@
 
 **##Plugin fields:**
 
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Field</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tagline</td>
+<td>_tagline</td>
+<td>Text string</td>
+</tr>
+</tbody>
+</table>
+
 **General section**
   - Tagline - “_tagline” (text field)
   - Pricing - “_atbd_listing_pricing” (radio button - “price” or “range”)
