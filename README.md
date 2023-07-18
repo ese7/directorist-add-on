@@ -104,13 +104,7 @@
 </td>
 </tr>
 </tbody>
-</table>
-
- 
- 
-  -  - “” (text field)
-  - Social Info - “” (nested array - platform ID and URL)
-       
+</table>      
 
 **Map**
   - Address “_address” (text field)
