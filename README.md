@@ -38,7 +38,7 @@
 <tr>
 <td>View Count</td>
 <td>_atbdp_post_views_count</td>
-<td></td>
+<td>Text string</td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@
 <tr>
 <td>Hide contact owner form for single listing page</td>
 <td>_hide_contact_owner</td>
-<td>Text string</td>
+<td>...</td>
 </tr>
 <tr>
 <td>Pricing</td>
