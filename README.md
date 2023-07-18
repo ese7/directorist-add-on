@@ -192,3 +192,10 @@
 </tr>
 </tbody>
 </table>
+
+**Known issue**
+Imported listings aren't visible on the frontend. To fix it, do the following:
+1. Enable "Show private taxonomies" in the "Taxonomies, Categories, Tags" section.
+2. Select "Listing Type" and type in "General" under "Each Directory listing has just one Listing Type".
+   
+See: https://github.com/sovware/directorist/issues/1337
