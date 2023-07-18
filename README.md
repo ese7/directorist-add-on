@@ -141,10 +141,54 @@
 </table>
 
 **Images & Video**
-  - Preview Image - “_listing_prv_img”  (single image - ID)
-  - Slider Images - “_listing_img” (multiple images - serialized IDs (single))
-  - Video - “_videourl” (text field)
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Field</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Preview Image</td>
+<td>_listing_prv_img</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Slider Images</td>
+<td>_listing_img</td>
+<td>Serialized array</td>
+</tr>
+<tr>
+<td>Video</td>
+<td>_videourl</td>
+<td>Text string</td>
+</tr>
+</tbody>
+</table>
 
 **Sidebar**
-  - Expiration Date and Time - “_expiry_date” (text)
-  - Never Expires - “_never_expire” (checkbox - yes/no)
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Field</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expiration Date and Time</td>
+<td>_expiry_date</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Never Expires</td>
+<td>_never_expire</td>
+<td>Radio</td>
+</tr>
+</tbody>
+</table>
