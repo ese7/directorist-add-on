@@ -2,6 +2,7 @@
 
 **##Plugin fields:**
 
+**General section**
 <table>
 <thead>
 <tr>
@@ -26,17 +27,22 @@
 <td>_price</td>
 <td>Text string</td>
 </tr>
-</tbody>
-</table>
-
-**General section**
-    -  - “” (text)
-    - Price Range - “_price_range” (dropdown)
-      - Ultra High ($$$$) - “skimming”
+<tr>
+<td>Price Range</td>
+<td>_price_range</td>
+<td>- Ultra High ($$$$) - “skimming”
       - Expensive ($$$) - “moderate”
       - Moderate ($$) - “economy”
-      - Cheap ($) - “bellow_economy”
-  - View Count - “_atbdp_post_views_count” (text)
+      - Cheap ($) - “bellow_economy”</td>
+</tr>
+<tr>
+<td>View Count</td>
+<td>_atbdp_post_views_count</td>
+<td>Text string</td>
+</tr>
+</tbody>
+</table>
+      
 
 **Contact Information**
   - Hide contact owner form for single listing page - “_hide_contact_info” (checkbox)
