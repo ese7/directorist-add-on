@@ -19,7 +19,7 @@
 <tr>
 <td>Pricing</td>
 <td>_atbd_listing_pricing</td>
-<td>radio button - “price” or “range”</td>
+<td>Radio Button - “price” or “range”</td>
 </tr>
 <tr>
 <td>Price (USD)</td>
