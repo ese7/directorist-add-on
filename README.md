@@ -16,13 +16,21 @@
 <td>_tagline</td>
 <td>Text string</td>
 </tr>
+<tr>
+<td>Pricing</td>
+<td>_atbd_listing_pricing</td>
+<td>radio button - “price” or “range”</td>
+</tr>
+<tr>
+<td>Price (USD)</td>
+<td>_price</td>
+<td>Text string</td>
+</tr>
 </tbody>
 </table>
 
 **General section**
-  - Tagline - “_tagline” (text field)
-  - Pricing - “_atbd_listing_pricing” (radio button - “price” or “range”)
-    - Price (USD) - “_price” (text)
+    -  - “” (text)
     - Price Range - “_price_range” (dropdown)
       - Ultra High ($$$$) - “skimming”
       - Expensive ($$$) - “moderate”
