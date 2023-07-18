@@ -20,7 +20,7 @@
 <tr>
 <td>Pricing</td>
 <td>_atbd_listing_pricing</td>
-<td>Radio Button - “price” or “range”</td>
+<td>"price" for Price, "range" for Range</td>
 </tr>
 <tr>
 <td>Price (USD)</td>
@@ -30,10 +30,11 @@
 <tr>
 <td>Price Range</td>
 <td>_price_range</td>
-<td>- Ultra High ($$$$) - “skimming”<br>
-      - Expensive ($$$) - “moderate”<br>
-      - Moderate ($$) - “economy”<br>
-      - Cheap ($) - “bellow_economy”</td>
+<td>
+      - skimming (Ultra High ($$$$))<br>
+      - moderate (Expensive ($$$))<br>
+      - economy (Moderate ($$))<br>
+      - bellow_economy (Cheap ($))</td>
 </tr>
 <tr>
 <td>View Count</td>
@@ -58,7 +59,7 @@
 <tr>
 <td>Hide contact owner form for single listing page</td>
 <td>_hide_contact_owner</td>
-<td>...</td>
+<td>Blank for no, "on" for yes</td>
 </tr>
 <tr>
 <td>Zip/Post Code</td>
@@ -98,9 +99,9 @@
 <tr>
 <td>Social Info</td>
 <td>_social</td>
-<td>Nested array<br>
-- Platform - “id” (dropdown)<br>
-- URL - “url” (text field)
+<td><i>Nested array</i><br>
+- id (Platform)<br>
+- url (URL)
 </td>
 </tr>
 </tbody>
@@ -135,7 +136,8 @@
 <tr>
 <td>Hide Map</td>
 <td>_hide_map</td>
-<td>...</td>
+<td>Blank for no, "1" for yes
+</td>
 </tr>
 </tbody>
 </table>
@@ -154,12 +156,12 @@
 <tr>
 <td>Preview Image</td>
 <td>_listing_prv_img</td>
-<td>Text string</td>
+<td>Image URL</td>
 </tr>
 <tr>
 <td>Slider Images</td>
 <td>_listing_img</td>
-<td>Serialized array</td>
+<td>Delimited Image URLs</td>
 </tr>
 <tr>
 <td>Video</td>
@@ -188,7 +190,7 @@
 <tr>
 <td>Never Expires</td>
 <td>_never_expire</td>
-<td>Radio</td>
+<td>Blank for no, "1" for yes</td>
 </tr>
 </tbody>
 </table>
