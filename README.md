@@ -39,21 +39,6 @@
 <td>_atbdp_post_views_count</td>
 <td>Text string</td>
 </tr>
-</tbody>
-</table>
-      
-
-**Contact Information**
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Custom Field</th>
-<th>Values</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Hide contact owner form for single listing page</td>
 <td>_hide_contact_owner</td>
@@ -102,20 +87,6 @@
 - url (URL)
 </td>
 </tr>
-</tbody>
-</table>      
-
-**Map**
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Custom Field</th>
-<th>Values</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Address</td>
 <td>_address</td>
@@ -137,20 +108,6 @@
 <td>Blank for no, "1" for yes
 </td>
 </tr>
-</tbody>
-</table>
-
-**Images & Video**
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Custom Field</th>
-<th>Values</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Preview Image</td>
 <td>_listing_prv_img</td>
@@ -166,20 +123,6 @@
 <td>_videourl</td>
 <td>Text string</td>
 </tr>
-</tbody>
-</table>
-
-**Sidebar**
-
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Custom Field</th>
-<th>Values</th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <td>Expiration Date and Time</td>
 <td>_expiry_date</td>
