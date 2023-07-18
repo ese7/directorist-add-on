@@ -71,29 +71,46 @@
 <td>Text string</td>
 </tr>
 <tr>
-<td>Price Range</td>
-<td>_price_range</td>
-<td>- Ultra High ($$$$) - “skimming”<br>
-      - Expensive ($$$) - “moderate”<br>
-      - Moderate ($$) - “economy”<br>
-      - Cheap ($) - “bellow_economy”</td>
+<td>Phone 2</td>
+<td>_phone2</td>
+<td>Text string</td>
 </tr>
 <tr>
 <td>View Count</td>
 <td>_atbdp_post_views_count</td>
 <td>Text string</td>
 </tr>
+<tr>
+<td>Fax</td>
+<td>_fax</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>_email</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>_website</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Social Info</td>
+<td>_social</td>
+<td>Nested array<br>
+- Platform - “id” (dropdown)<br>
+- URL - “url” (text field)
+</td>
+</tr>
 </tbody>
 </table>
 
-  - Phone - “” (text field)
-  - Phone 2 - “_phone2” (text field)
-  - Fax - “_fax” (text field)
-  - Email - “_email” (text field)
-  - Website - “_website” (text field)
-  - Social Info - “_social” (nested array - platform ID and URL)
-    - Platform - “id” (dropdown)
-    - URL - “url” (text field)   
+ 
+ 
+  -  - “” (text field)
+  - Social Info - “” (nested array - platform ID and URL)
+       
 
 **Map**
   - Address “_address” (text field)
