@@ -61,9 +61,9 @@
 <td>...</td>
 </tr>
 <tr>
-<td>Pricing</td>
-<td>_atbd_listing_pricing</td>
-<td>Radio Button - “price” or “range”</td>
+<td>Zip/Post Code</td>
+<td>_zip</td>
+<td>Text string</td>
 </tr>
 <tr>
 <td>Price (USD)</td>
@@ -86,8 +86,7 @@
 </tbody>
 </table>
 
-  - Hide contact owner form for single listing page - “_hide_contact_owner” (checkbox)
-  - Zip/Post Code - “_zip” (text field)
+  -  - “” (text field)
   - Phone - “_phone” (text field)
   - Phone 2 - “_phone2” (text field)
   - Fax - “_fax” (text field)
