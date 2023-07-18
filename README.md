@@ -107,11 +107,42 @@
 </table>      
 
 **Map**
-  - Address “_address” (text field)
-  - Or Enter Coordinates (latitude and longitude) Manually (checkbox)
-  - Latitude - “_manual_lat” (text field)
-  - Longitude - “_manual_lng” (text field)
-  - Hide Map (checkbox - yes/no)
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Field</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Address</td>
+<td>_address</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Latitude</td>
+<td>_manual_lat</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Longitude</td>
+<td>_manual_lng</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Hide Map</td>
+<td>_hide_map</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+
+  -  - “” (text field)
+  -  - “” (text field)
+  -  (checkbox - yes/no)
 
 **Images & Video**
   - Preview Image - “_listing_prv_img”  (single image - ID)
