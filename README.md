@@ -1,5 +1,3 @@
-
-
 **##Plugin fields:**
 
 **General section**
