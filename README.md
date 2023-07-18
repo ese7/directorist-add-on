@@ -140,10 +140,6 @@
 </tbody>
 </table>
 
-  -  - “” (text field)
-  -  - “” (text field)
-  -  (checkbox - yes/no)
-
 **Images & Video**
   - Preview Image - “_listing_prv_img”  (single image - ID)
   - Slider Images - “_listing_img” (multiple images - serialized IDs (single))
