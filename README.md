@@ -30,9 +30,9 @@
 <tr>
 <td>Price Range</td>
 <td>_price_range</td>
-<td>- Ultra High ($$$$) - “skimming”
-      - Expensive ($$$) - “moderate”
-      - Moderate ($$) - “economy”
+<td>- Ultra High ($$$$) - “skimming”<br>
+      - Expensive ($$$) - “moderate”<br>
+      - Moderate ($$) - “economy”<br>
       - Cheap ($) - “bellow_economy”</td>
 </tr>
 <tr>
