@@ -38,14 +38,55 @@
 <tr>
 <td>View Count</td>
 <td>_atbdp_post_views_count</td>
-<td>Text string</td>
+<td></td>
 </tr>
 </tbody>
 </table>
       
 
 **Contact Information**
-  - Hide contact owner form for single listing page - “_hide_contact_info” (checkbox)
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Custom Field</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hide contact owner form for single listing page</td>
+<td>_hide_contact_owner</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Pricing</td>
+<td>_atbd_listing_pricing</td>
+<td>Radio Button - “price” or “range”</td>
+</tr>
+<tr>
+<td>Price (USD)</td>
+<td>_price</td>
+<td>Text string</td>
+</tr>
+<tr>
+<td>Price Range</td>
+<td>_price_range</td>
+<td>- Ultra High ($$$$) - “skimming”<br>
+      - Expensive ($$$) - “moderate”<br>
+      - Moderate ($$) - “economy”<br>
+      - Cheap ($) - “bellow_economy”</td>
+</tr>
+<tr>
+<td>View Count</td>
+<td>_atbdp_post_views_count</td>
+<td>Text string</td>
+</tr>
+</tbody>
+</table>
+
+  - Hide contact owner form for single listing page - “_hide_contact_owner” (checkbox)
   - Zip/Post Code - “_zip” (text field)
   - Phone - “_phone” (text field)
   - Phone 2 - “_phone2” (text field)
