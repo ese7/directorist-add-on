@@ -193,6 +193,8 @@
 </tbody>
 </table>
 
+<br>
+
 **##Known issue**
 Imported listings aren't visible on the frontend. To fix it, do the following:
 1. Enable "Show private taxonomies" in the "Taxonomies, Categories, Tags" section.
