@@ -66,8 +66,8 @@
 <td>Text string</td>
 </tr>
 <tr>
-<td>Price (USD)</td>
-<td>_price</td>
+<td>Phone</td>
+<td>_phone</td>
 <td>Text string</td>
 </tr>
 <tr>
@@ -86,8 +86,7 @@
 </tbody>
 </table>
 
-  -  - “” (text field)
-  - Phone - “_phone” (text field)
+  - Phone - “” (text field)
   - Phone 2 - “_phone2” (text field)
   - Fax - “_fax” (text field)
   - Email - “_email” (text field)
